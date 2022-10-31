@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About me</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+  <style>
+    h1{text-align: center;}
+.navbar-default{
+    background-color: #e3f2fd;
+}
+body{
+    background-image: url(background1.jpg);
+}
+p {
+    font-size: 25px;
+}
+.container{
+    width: 800px;
+    font-size: 40px;
+    border-style: dotted;
+}
+.navbar-default{
+    font-size: 20px;
+}
+img {
+    width:auto;
+    max-width:fit-content;
+    height:auto;
+}
+  </style>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">About</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="experience.html">Experience</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+  <script type="text/javascript"> 
+    function display_c(){
+    var refresh=1000; // Refresh rate in milli seconds
+    mytime=setTimeout('display_ct()',refresh)
+    }
+  
+    function display_ct() {
+    var x = new Date()
+    document.getElementById('ct').innerHTML = x;
+    display_c();
+     }
+    </script>
+    </head>
+  
+    <body onload=display_ct();>
+    <span id='ct' ></span>
+  <br>
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+    </head>
+    <body>
+      <h1 style="font-family:cursive;">About me</h1>
+        <h2 style="font-family:cursive;">Hobbies</h2>
+    </body>
+    <style>
+        .accordion {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+        .active, .accordion:hover {
+          background-color: rgb(226, 226, 226); 
+        }
+        
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: white;
+          overflow: hidden;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <button class="accordion">Sports</button>
+        <div class="panel">
+          <p>
+            I love playing golf with friends and family. I grew up with a family that plays golf and started to 
+            really play in Middle School. I was on my High Schools varsity golf team and got to play in different 
+            courses throughout New Jersey.I've been playing for over 5 years and want to teach my family in the 
+            feature to pass down the tradition. I also love to run as I also did track and field in High School.
+            I'm a big wrestling fan and will not stop talking about it if the subject comes up.
+          </p>
+          <br>
+          <img src="course.jpg" alt="myself" style="width: 20%;">
+          <br>
+          <img src="wwe1.jpg" alt="myself" style="width: 20%;">
+          <br>
+          <img src="aew.jpg" alt="myself" style="width: 20%;">
+          <br>
+
+        </div>
+       
+        
+        <button class="accordion">Food</button>
+        <div class="panel">
+          <p>
+            I love to try all sorts of food. Everytime I go somewhere with friends and family, I always need to eat because 
+            I love to learn about other cultures and what they incorporate in their dishes. I'm big on watching cooking 
+            compition shows such as Iron Chef, Street Foods, Chopped and ect. It's gives me the motivation to go out 
+            of explore other cuisines that's around.My top 5 favorite cuisine is Korean, Indian, Filipino, 
+            Thai, and Italian. 
+          </p>
+          <img src="r.jpg" alt="myself" style="width: 20%;">
+          <br>
+          <img src="food.jpg" alt="myself" style="width: 20%;">
+          <br>
+        </div>
+        
+        <button class="accordion">Travel</button>
+        <div class="panel">
+          <p>
+            Traveling is my go to favorite thing to do because I get to explore different cultures. Whenever I travel, 
+            I always look forward to the food and tourist spots. I traveled to Colorado, Florida, North Carolina, Chicago, 
+            Dominican Republic, Las Vegas and many more. One of the bucklist is to travel all around Asia and go to 
+            tourist spots and really learn about history and how their lifestyle are.
+          </p>
+          <img src="colorado.jpg" alt="myself" style="width: 20%;">
+          <br>
+          <img src="chicago.jpg" alt="myself" style="width: 20%;">
+          <br>
+        </div>
+        
+        <button class="accordion">Technology</button>
+        <div class="panel">
+          <p>
+            Technology is big for me because it's very interesting there's many different kinds out there. I love being 
+            hands on so during quarantine I had the opportunity to build my PC. At that point it was very hard to get 
+            parts and had to camp out at different tech stores just to get a GPU. Although it was stressful, I really had 
+            a great time learning about different components of the PC and problem solves on why a certain port didn't 
+            work. When it comes to technology I'm always the go to person since I'm so fimilar with different technology
+            such as smartphones, tablets and computers. 
+          </p>
+          <br>
+          <br>
+          <img src="IMG_0463.jpeg" alt="myself" style="width: 20%;">
+          <br>
+        </div>
+        <br>
+
+        
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+              panel.style.display = "none";
+            } else {
+              panel.style.display = "block";
+            }
+          });
+        }
+        </script>
+        
+        </body> 
+
+    
+
+    
+

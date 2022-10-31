@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+
+  <style>
+    h1{text-align: center;}
+.navbar-default{
+    background-color: #e3f2fd;
+}
+body{
+  background-image: url(background1.jpg);
+}
+p {
+    font-size: 18px;
+}
+.container{
+    width: 800px;
+    font-size: 40px;
+    border-style: none;
+}
+.navbar-default{
+    font-size: 20px;
+}
+img {
+    width:auto;
+    max-width:fit-content;
+    height:auto;
+}
+  </style>
+
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Contact me</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experience</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<br>
+<script type="text/javascript"> 
+function display_c(){
+    var refresh=1000; // Refresh rate in milli seconds
+    mytime=setTimeout('display_ct()',refresh)
+    }
+    function display_ct() {
+    var x = new Date()
+    document.getElementById('ct').innerHTML = x;
+    display_c();
+     }
+    </script>
+    </head>
+    
+    <body onload=display_ct();>
+    <span id='ct' ></span>
+    <br>
+  <style>
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+  <h1 style="font-family:cursive;">Contact</h1>
+
+  <br>
+
+  <style>
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: black;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: black;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    </style>
+    <h1>Please fill this form out if you want to reach out to me: </h1>
+    <br>
+    <div class="container">
+      <form method="post" action="contacts.php">
+        <label for="name">Full Name</label>
+        <br>
+        <input type="text" id="fname" name="firstname" placeholder="Name">
+        <br>
+        <label for="name">Email</label>
+        <br>
+        <input type="mail" id="mail" name="mail" placeholder="Enter Email...">
+        <br>
+        <label for="name">Reason</label>
+        <br>
+        <textarea input="" type="subject" id="subject" name="subject" placeholder="write something..." rows="6" maxlength="3000" required=""></textarea>
+        <br>
+        <button class="sub">Submit</button>
+        <input type="reset" value="Clear">
+      </form>
+    </div>
+  <br>
+
+      </form>
+
+      <h1>Social</h1>
+      <br> 
+      
+      <body>
+        <div class="container">
+        <div class="vertical-center">
+        <h2>Please feel free to follow my Linkedin page below</h2>
+        <br>
+        <form action="https://www.linkedin.com/in/jonathan-hur-285917137" method="get" target="_blank">
+           <button type="submit">Click me</button>
+        </form>
+    </body>
+
+    <br>
+
+
+  <div class="container2"> 
+  <h3>If you wish to reach me directly here's my information below:</h3>
+  
+  <div class="column">
+    <div class="vertical-center"> Email address: </div>
+    <div class="vertical-center"> jhur2397@gmail.com </div>
+    <div class="w-100 d-none d-md-block"></div>
+    <br>
+    <div class="vertical-center"> Phone number: </div> 
+    <div class="vertical-center">732-379-2213</div>
+  </div>
+  <br>
+  <html>
+<body>
+
+
+    </head>
+   
